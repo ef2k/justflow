@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'justflow'
+
+abort "Provide the url to get flowin (e.g: http://google.com)" if ARGV.size < 1
+url = ARGV[0]
+
+begin
+	JustFlow.convert(url)
+rescue Exception => ex
+	warn "We couldnt just flow :( -> #{ex}"
+end
