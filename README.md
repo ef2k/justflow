@@ -1,10 +1,10 @@
 JustFlow
 ========
 
-JustFlow scrapes pages for assets, updates the asset urls to local ones, and sorts the assets into the following folder structure:
+JustFlow is a website scraper that downloads assets, updates the asset urls to local ones, and sorts them into the following folder structure:
 
 ```
-www.thetargetsite.io/
+www.coolestwebpage.com_/
 - js/
 - img/
 - css/
@@ -12,7 +12,7 @@ www.thetargetsite.io/
 ```
 
 
-**NOTE: Works on most sites but, has trouble on sites that redirect.**
+**NOTE: JustFlow works on most sites but has trouble on pages that redirect.**
 
 Instructions
 ------------
