@@ -165,13 +165,15 @@ module JustFlow
       original_css_path = orig_link_tags[idx]['href']
       local_css_path = link['href']
 
-      src = ''
-      File.open(local_css_path, 'r') { |file|
-        src = process_css_urls(file.read(), original_css_path)
-      }
-      File.open(local_css_path, 'w') { |file|
-        file.write(src)
-      }
+      if File.exists?(local_css_path)
+        src = ""
+        File.open(local_css_path, 'r') { |file|
+          src = process_css_urls(file.read(), original_css_path)
+        }
+        File.open(local_css_path, 'w') { |file|
+          file.write(src)
+        }
+      end
     }
   end
 end
