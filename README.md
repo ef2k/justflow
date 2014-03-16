@@ -8,7 +8,7 @@ www.coolestwebpage.com_/
 - js/
 - img/
 - css/
-- font/
+- fonts/
 ```
 
 

@@ -129,7 +129,7 @@ module JustFlow
       extension = File.extname(original_item_url)
       basename  = File.basename(original_item_url)
 
-      out_dir = is_img?(extension) ? 'img' : 'font'
+      out_dir = is_img?(extension) ? 'img' : 'fonts'
       ensure_mkdir(out_dir)
       out_path = File.join(out_dir, basename)
 
