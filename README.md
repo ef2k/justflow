@@ -17,9 +17,11 @@ www.coolestwebpage.com_/
 Instructions
 ------------
 
-`gem build justflow.gemspec`
+`$: bundle install`
 
-`gem install justflow-0.0.1.gem`
+or
+
+`$: gem install justflow`
 
 
 Usage

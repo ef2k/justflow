@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/eddflrs/justflow.git
+  revision: fb10cf95b4a4ac571451a6799c5755a870ba5313
+  specs:
+    justflow (0.0.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -11,4 +17,5 @@ PLATFORMS
 
 DEPENDENCIES
   colorize
+  justflow!
   nokogiri
